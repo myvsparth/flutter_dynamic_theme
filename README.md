@@ -8,8 +8,8 @@ How to Implement Dynamic Theme in Flutter using Provider
 - We will implement dynamic theme for control dark and light mode of the application which you have in some applications like reading application where light mode is for day and dark mode for night. You have also noticed that Google Maps have same feature for night and day mode which is automatically gets on and off according to the light.
 
 ## Output:
-![Light Mode](https://raw.githubusercontent.com/myvsparth/flutter_dynamic_theme/master/screenshots/1.png)
-![Dark Mode](https://raw.githubusercontent.com/myvsparth/flutter_dynamic_theme/master/screenshots/2.png)
+![Light Mode](https://raw.githubusercontent.com/myvsparth/flutter_dynamic_theme/master/screenshots/1.png | width=48)
+![Dark Mode](https://raw.githubusercontent.com/myvsparth/flutter_dynamic_theme/master/screenshots/2.png | width=48)
 
     Required Plugin: provider
 
@@ -96,7 +96,7 @@ class DynamicTheme with ChangeNotifier {
 5. Run the project in device and test the app. You can customize the theme as per your requirement.
 
 ## Conclusion:
-	In this article we have learned how to implement dynamic theme in flutter using provider. This example is basic and easy to understand and you can make it fully customizable by implementing other theme properties in provider file. You can also store the theme settings in shared preferences to keep setting active after closing and reopening the app.
+-   In this article we have learned how to implement dynamic theme in flutter using provider. This example is basic and easy to understand and you can make it fully customizable by implementing other theme properties in provider file. You can also store the theme settings in shared preferences to keep setting active after closing and reopening the app.
 
 Git Repo: https://github.com/myvsparth/flutter_dynamic_theme
 
